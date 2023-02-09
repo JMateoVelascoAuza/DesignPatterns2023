@@ -1,0 +1,12 @@
+*- LOGGER -*
+Ventas/compras
+
+Se tiene una aplicacion donde se registran Productos,
+clientes, facturas y  promociones
+ (2 metodos de cada uno dentro de estos
+ debe llamar al logger),
+estas operaciones deben logger todo lo que realizan
+en un archivo con extension TXT
+
+
+Logger tiene que ser un SINGLETON
