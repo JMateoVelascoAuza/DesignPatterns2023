@@ -1,4 +1,4 @@
-package Builder.practice;
+package Builder;
 
 public class Computadora {
     private String nombre;

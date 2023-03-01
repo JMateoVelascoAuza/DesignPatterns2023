@@ -1,4 +1,4 @@
-package Builder.practice;
+package Builder;
 
 public abstract class Builder {
     protected  Computadora computadora;

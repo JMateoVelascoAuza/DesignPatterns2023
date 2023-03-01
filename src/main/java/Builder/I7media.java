@@ -1,38 +1,38 @@
-package Builder.practice;
+package Builder;
 
-public class I5baja extends Builder{
+public class I7media extends Builder{
     @Override
     public void buildNombre() {
-        this.computadora.setNombre("I5-Baja");
+        this.computadora.setNombre("I7-Media");
     }
 
     @Override
     public void buildMemoria() {
-        this.computadora.setMemoria("8Gb");
+        this.computadora.setMemoria("16Gb");
     }
 
     @Override
     public void buildMonitor() {
-        this.computadora.setMonitor(24);
+        this.computadora.setMonitor(32);
     }
 
     @Override
     public void buildMouse() {
-        this.computadora.setMouse("Normal");
+        this.computadora.setMouse("RGB");
     }
 
     @Override
     public void buildProcesador() {
-        this.computadora.setProcesador("i5");
+        this.computadora.setProcesador("i7");
     }
 
     @Override
     public void buildTeclado() {
-        this.computadora.setTeclado("Normal");
+        this.computadora.setTeclado("RGB");
     }
 
     @Override
     public void buildVideo() {
-        this.computadora.setVideo(4);
+        this.computadora.setVideo(8);
     }
 }
